@@ -10,24 +10,53 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
+    .attribution { font-size: 11px; text-align: center; margin-top: 10px; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="container">
+    <div class="content">
+      <h1 class="title">Get <span>insights</span> that help your business grow.</h1>
 
-  Get insights that help your business grow.
+      <p>
+        Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+        experience, and overall efficiency.
+      </p>
+      
+      <div class="stats">
+        <div class="stat">
+          <span>10k+</span>
+          <p>companies</p>
+        </div>
+        <div class="stat">
+          <span>314</span>
+          <p>templates</p>
+        </div>
+        <div class="stat">
+          <span>12m+</span>
+          <p>queries</p>
+        </div>
+      </div>
+    </div>
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
+    <div class="img-container">
+      <img src="images/image-header-desktop.jpg" alt="">
+    </div>
+  </div>
 
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://www.linkedin.com/in/joao-paulo-farias/" target="_blank">João Paulo Farias</a>.
+    <p>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.linkedin.com/in/joao-paulo-farias/" target="_blank">João Paulo Farias</a>.
+    </p>
   </div>
+
+  <script>
+    var largura = window.innerWidth;
+    console.log("Largura da tela: " + largura);
+  </script>
 </body>
 </html>
