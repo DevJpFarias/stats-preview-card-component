@@ -117,13 +117,50 @@ span {
     width: 90%;
     display: grid;
     grid-template-columns: auto;
+    margin-top: 20px;
 
     display: flex;
     flex-direction: column-reverse;
   }
 
+  .img-container img {
+    border-radius: 10px 10px 0px 0px;
+  }
+
   .content {
+    width: 100%;
     columns: span 1;
+    padding: 1.2rem;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+  }
+
+  .content p {
+    text-align: center;
+    margin: 0px 2.25rem;
+  }
+
+  .stats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .stat {
+    margin-bottom: 1rem;
+  }
+
+  .stat span, .stat p {
+    text-align: center;
   }
 
   .img-container {
